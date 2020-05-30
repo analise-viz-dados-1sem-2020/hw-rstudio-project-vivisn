@@ -14,3 +14,5 @@ df %>%
   xlab("Década de nascimento") +
   ylab("Pessoas") +
   ggsave("figures/nomes-decada.pdf")
+install.packages(c("magrittr", "ggplot2", "httr", "dplyr"))
+
